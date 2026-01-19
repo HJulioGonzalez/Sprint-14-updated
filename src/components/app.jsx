@@ -8,9 +8,6 @@ export function App() {
 
   return (
     <>
-      <div className="page">
-        <h1 className="title">Habib julio testing Crypto-Duck</h1>
-      </div>
       <Login />
       <Register />
     </>

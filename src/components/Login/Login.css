@@ -1,14 +1,49 @@
 .login {
-  color: yellow;
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  border: greenyellow solid 2px;
+  padding: 50px 100px;
 }
 .login__title {
-  margin: 0;
+  margin-bottom: 50px;
   padding: 0;
 }
 
 .login__title-text {
   margin: 0;
   padding: 0;
+}
+
+.login__description{
+  margin: 25px 0;
+}
+
+.login__form{
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__field-name{
+  margin-top: 20px;
+}
+
+.login__input{
+  width: 400px;
+  background: none;
+  border: greenyellow solid 2px;
+}
+
+.login__button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 30px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .login__membership {
