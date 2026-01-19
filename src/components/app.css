@@ -4,5 +4,11 @@
   padding: 0;
   text-align: center;
   background-color: #000;
+  /* border: solid greenyellow 1px; */
 }
 
+.title {
+  color: cyan;
+  margin: 0;
+  padding: 0;
+}
