@@ -1,5 +1,6 @@
 import "./Login.css";
-import loginLogo from "../../assets/cuck.png"
+import loginLogo from "../../assets/cuck.png";
+import Register from "../Register/Register";
 
 function Login() {
   return (

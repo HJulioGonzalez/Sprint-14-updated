@@ -1,7 +1,8 @@
 import { useState } from "preact/hooks";
 import Login from "./Login/Login";
-import Register from "./Register/Register";
+
 import "./app.css";
+import { BrowserRouter } from "react-router-dom";
 
 export function App() {
   const [count, setCount] = useState(0);
@@ -9,7 +10,6 @@ export function App() {
   return (
     <>
       <Login />
-      <Register />
     </>
   );
 }
