@@ -1,0 +1,7 @@
+.ducks {
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  border: greenyellow solid 2px;
+  padding: 50px 100px;
+}

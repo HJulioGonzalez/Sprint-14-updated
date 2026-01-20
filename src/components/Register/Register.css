@@ -1,5 +1,44 @@
-.register__title {
+.register {
   color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  border: greenyellow solid 2px;
+  padding: 50px 100px;
+}
+.register__title {
   margin: 0;
   padding: 0;
+}
+
+.register__form {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__field-name {
+  margin-top: 20px;
+}
+
+.register__input {
+  width: 400px;
+  background: none;
+  border: greenyellow solid 2px;
+  color: #fff;
+}
+
+.register__button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 30px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.register__login-link {
+  color: inherit;
+  text-decoration: none;
 }

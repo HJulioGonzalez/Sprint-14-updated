@@ -15,25 +15,26 @@
   padding: 0;
 }
 
-.login__description{
+.login__description {
   margin: 25px 0;
 }
 
-.login__form{
+.login__form {
   margin: 25px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.login__field-name{
+.login__field-name {
   margin-top: 20px;
 }
 
-.login__input{
+.login__input {
   width: 400px;
   background: none;
   border: greenyellow solid 2px;
+  color: #fff;
 }
 
 .login__button {
